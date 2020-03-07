@@ -1,0 +1,19 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "This is my personal website showcasing my portfolio, some of my skills, and a little bit about me and why I love to code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojones311/personalwebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojones311/personalwebsite/issues"
+  },
+  "homepage": "https://github.com/ojones311/personalwebsite#readme"
+}
