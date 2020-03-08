@@ -23,8 +23,10 @@ class Home extends Component {
         console.log(quote)
         return(
             <div className='home-page'>
-                <h1>Owen Jones </h1>
+                <h1 id='home-heading'>Owen Jones </h1>
+                <div id='background-photo'>
                 <img id='main-pic' src='../IMG_8807.jpeg' alt='Main'></img>
+                </div>
                 <div className='random-quote'>
                     <p>{quote.text}</p>
                     <h4>{quote.author}</h4>
