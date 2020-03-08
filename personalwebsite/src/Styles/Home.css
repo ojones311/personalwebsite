@@ -3,3 +3,8 @@
     height: 500px;
     width: 500px;
 }
+
+.random-quote {
+    border-style: ridge;
+    border-width: 2px;
+}
