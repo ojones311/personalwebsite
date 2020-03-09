@@ -2,7 +2,7 @@
     text-align: right;
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     height: 50px;
     width: 100%;
     float: right;
@@ -11,4 +11,8 @@
 #tag {
     text-align: left;
     float: left;
+}
+
+nav {
+    color: black;
 }

@@ -1,5 +1,10 @@
-#background-photo {
-    background-image: url('/public/IMG_8807.jpeg')
+/* #background-photo {
+    background-image: url('/public/IMG_8807.jpeg');
+    /* background-repeat:  */
+/* }  */
+body {
+    background-image: url('/IMG_8807.jpeg');
+    background-size: 1800px 1500px;
 }
 #main-pic {
     height: 700px;
@@ -8,7 +13,8 @@
  #home-heading {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.random-quote {
-    border-style: ridge;
-    border-width: 2px;
-}
+  .random-quote {
+    border-style: ridge; 
+    border-width: 2px;  
+    bottom: 20px;
+  }

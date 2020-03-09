@@ -11,7 +11,6 @@ class Home extends Component {
         }
     }
     componentDidMount = () => {
-        // console.log(Quote.getRandomQuote())
         const randomQuote = Quote.getQuote()
         console.log('quote', randomQuote)
         this.setState({
@@ -25,11 +24,10 @@ class Home extends Component {
             <div className='home-page'>
                 <h1 id='home-heading'>Owen Jones </h1>
                 <div id='background-photo'>
-                <img id='main-pic' src='../IMG_8807.jpeg' alt='Main'></img>
                 </div>
                 <div className='random-quote'>
-                    <p>{quote.text}</p>
-                    <h4>{quote.author}</h4>
+                    <h3>{quote.text}</h3>
+                    <h2>{quote.author}</h2>
                 </div>
             </div>
         )
