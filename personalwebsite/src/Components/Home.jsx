@@ -6,26 +6,26 @@ class Home extends Component {
     constructor(){
         super()
         this.state = {
-            elements: true,
             quote: '' 
         }
     }
     componentDidMount = () => {
+        this.changeQuote()
+    }
+    changeQuote = () => {
         const randomQuote = Quote.getQuote()
-        console.log('quote', randomQuote)
         this.setState({
             quote: randomQuote
         })
     }
     render(){
         const {quote} = this.state
-        console.log(quote)
         return(
             <div className='home-page'>
                 <h1 id='home-heading'>Owen Jones </h1>
                 <div id='background-photo'>
                 </div>
-                <div className='random-quote'>
+                <div className='random-quote' onClick={this.changeQuote}>
                     <h3>{quote.text}</h3>
                     <h2>{quote.author}</h2>
                 </div>

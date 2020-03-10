@@ -1,20 +1,25 @@
-/* #background-photo {
+#background-photo {
     background-image: url('/public/IMG_8807.jpeg');
-    /* background-repeat:  */
-/* }  */
+    opacity: .5;
+} 
 body {
     background-image: url('/IMG_8807.jpeg');
-    background-size: 1800px 1500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-#main-pic {
+/* #main-pic {
     height: 700px;
     width: 600px;
+} */
+#home-heading {
+    width: 100%;
+    font-size: 72px;
 }
- #home-heading {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-  .random-quote {
+.random-quote {
+    width: 100%;
     border-style: ridge; 
     border-width: 2px;  
-    bottom: 20px;
+    position: relative;
+    top: 200px;
   }
+

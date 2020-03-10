@@ -9,10 +9,13 @@ import Resume from './Components/Resume'
 import ContactFooter from './Components/ContactFooter'
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <div className='nav'>
+        <NavBar />
+      </div> 
       <div>
         <Switch>
             <Route exact path= "/" 

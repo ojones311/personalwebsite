@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:600&display=swap');
+
 .App {
   text-align: center;
 }
 
 
 
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 72px
+}
 
-
+h2, h3, h4, p {
+  font-family: 'Tenor Sans', sans-serif
+}
