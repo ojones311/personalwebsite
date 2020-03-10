@@ -9,12 +9,14 @@ class Projects extends Component {
     }
 
     componentDidMount = () => {
-        
+
     }
     render(){
         return(
-            <div>
-                <h1>Projects</h1>
+            <div className='container'>
+                <h1 id='heading'>
+                    Projects
+                </h1>
             </div>
         )
     }

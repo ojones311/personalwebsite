@@ -1,0 +1,16 @@
+/* .skill-list {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+} */
+
+.js-icon {
+    text-align: items;
+    align-items: center;
+    width: 20px;
+}

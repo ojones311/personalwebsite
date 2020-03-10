@@ -1,9 +1,6 @@
-#background-photo {
-    background-image: url('/public/IMG_8807.jpeg');
-    opacity: .5;
-} 
+
 body {
-    background-image: url('/IMG_8807.jpeg');
+    background-image: url('/pics/IMG_8807.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -14,8 +11,10 @@ body {
 #home-heading {
     width: 100%;
     font-size: 72px;
+    text-align: center;
 }
 .random-quote {
+    text-align: center;
     width: 100%;
     border-style: ridge; 
     border-width: 2px;  
