@@ -1,7 +1,12 @@
-/* .skill-list {
+#heading {
+    text-align: center;
+}
+.skill-list {
     display: flex;
-    flex-direction: row;
-} */
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
 
 /* .container {
     text-align: center;
@@ -9,8 +14,8 @@
     flex-direction: row;
 } */
 
-.js-icon {
-    text-align: items;
+#js-icon {
+    text-align: center;
     align-items: center;
-    width: 20px;
+    width: 20%;
 }
