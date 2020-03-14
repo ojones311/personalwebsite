@@ -3,18 +3,54 @@
 }
 .skill-list {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
 }
 
-
-/* .container {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-} */
-
 #js-icon {
+    text-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+#html-icon{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+#css-icon{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+#nodejs-icon{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+#postgres-icon{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+#react-icon{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+#github-icon{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+#git-icon{
     text-align: center;
     align-items: center;
     width: 20%;
