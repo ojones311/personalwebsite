@@ -23,8 +23,6 @@ class Home extends Component {
         return(
             <div className='home-page'>
                 <h1 id='home-heading'>Owen Jones </h1>
-                <div id='background-photo'>
-                </div>
                 <div className='random-quote' onClick={this.changeQuote}>
                     <h3>{quote.text}</h3>
                     <h2>{quote.author}</h2>

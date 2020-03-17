@@ -1,3 +1,47 @@
 #heading {
     text-align: center;
 }
+
+.container {
+    text-align: center;
+}
+
+.project-map {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-flow: wrap;  
+    padding: 20px;
+    margin: 20px;
+}
+
+#MemeMe {
+    border-style: groove;
+    border-width: 2px;
+    width: 45%;
+    background-color: khaki;
+}
+#Winstagram {
+    border-style: groove;
+    border-width: 2px;
+    width: 45%;
+    background-color: khaki
+}
+
+#Tekpack {
+    border-style: groove;
+    border-width: 2px;
+    width: 45%;
+    background-color: khaki
+}
+
+#Twitter-Clone {
+    border-style: groove;
+    border-width: 2px;
+    width: 45%;
+    background-color: khaki
+}
+
+.link-buttons {
+    align-items: baseline;
+}
