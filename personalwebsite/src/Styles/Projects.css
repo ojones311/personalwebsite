@@ -4,41 +4,53 @@
 
 .container {
     text-align: center;
+   
 }
 
 .project-map {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-flow: wrap;  
+    display: grid;
+    justify-items: center;
+    grid-template-columns: [one] 1fr [two] 1fr [three];
+    grid-template-rows: 1fr .5fr 1fr .5fr;
     padding: 20px;
     margin: 20px;
 }
 
 #MemeMe {
+    width: 80%;
     border-style: groove;
     border-width: 2px;
-    width: 45%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-items: center;
     background-color: khaki;
 }
 #Winstagram {
+    width: 80%;
     border-style: groove;
     border-width: 2px;
-    width: 45%;
-    background-color: khaki
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: khaki;
 }
 
 #Tekpack {
+    width: 80%;
+    text-align: center;
     border-style: groove;
     border-width: 2px;
-    width: 45%;
+    
+    grid-column: 2/3;
+    grid-row: 1/2;
     background-color: khaki
 }
 
 #Twitter-Clone {
+    width: 80%;
     border-style: groove;
     border-width: 2px;
-    width: 45%;
+    grid-column: 2/3;
+    grid-row: 3/4;
     background-color: khaki
 }
 

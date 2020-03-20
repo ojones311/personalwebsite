@@ -41,10 +41,9 @@ class Projects extends Component {
             ]
         }
     }
-    redirectToGithubPage = () => {
+    redirectToGithubPage = (id) => {
         const {projectList} = this.state
         console.log('redir to github')
-        window.location.href = ''
     }
 
     redirectToLivePage = () => {

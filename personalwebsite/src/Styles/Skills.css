@@ -2,56 +2,56 @@
     text-align: center;
 }
 .skill-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
 #js-icon {
     text-align: center;
     align-items: center;
-    width: 20%;
+    width: auto;
 }
 
 #html-icon{
     text-align: center;
     align-items: center;
-    width: 20%;
+    width: auto;
 }
 
 #css-icon{
     text-align: center;
     align-items: center;
-    width: 20%;
+    width: auto;
 }
 
 #nodejs-icon{
     text-align: center;
     align-items: center;
-    width: 20%;
+    width: auto;
 }
 
 #postgres-icon{
     text-align: center;
     align-items: center;
-    width: 20%;
+    width: auto;
 }
 
 #react-icon{
     text-align: center;
     align-items: center;
-    width: 20%;
+    width: auto;
 }
 
 #github-icon{
     text-align: center;
     align-items: center;
-    width: 20%;
+    width: auto;
 }
 
 #git-icon{
     text-align: center;
     align-items: center;
-    width: 20%;
+    width: auto;
 }
