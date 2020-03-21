@@ -50,6 +50,7 @@ class Projects extends Component {
     redirectToLivePage = () => {
         console.log('redir to live')
     } 
+   
 
     render(){
         const {projectList} = this.state

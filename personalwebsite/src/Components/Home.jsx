@@ -21,10 +21,7 @@ class Home extends Component {
             quote: randomQuote
         })
     }
-    // redirectToGithub = () => {
-    //     console.log('clicked')
-    //     window.location.href = ('https://github.com/ojones311')
-    // }
+    
     render(){
         const {quote} = this.state
         return(
