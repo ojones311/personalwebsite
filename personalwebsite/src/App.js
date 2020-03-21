@@ -13,29 +13,31 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className='nav'>
-        <NavBar />
-      </div> 
-      <div>
-        <Switch>
-            <Route exact path= "/" 
-              component={Home}
-            />
-            <Route path= "/about" 
-              render={() => <About />}
-            />
-            <Route path="/projects"
-              render={() => <Projects />}
-            />
-            <Route path="/skills"
-              render={() => <Skills />}
-            />
-            <Route path= "/resume"
-              render={() => <Resume />}
-            />
-        </Switch>
+      <div className='full-body'>
+        <div className='nav'>
+          <NavBar />
+        </div> 
+        <div>
+          <Switch>
+              <Route exact path= "/" 
+                component={Home}
+              />
+              <Route path= "/about" 
+                render={() => <About />}
+              />
+              <Route path="/projects"
+                render={() => <Projects />}
+              />
+              <Route path="/skills"
+                render={() => <Skills />}
+              />
+              <Route path= "/resume"
+                render={() => <Resume />}
+              />
+          </Switch>
+        </div>
+          {/* <ContactFooter /> */}
       </div>
-        {/* <ContactFooter /> */}
     </div>
   );
 }

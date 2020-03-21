@@ -13,6 +13,37 @@
     width: 100%;
     border-style: ridge; 
     border-width: 2px; 
- 
+    background-color: beige;
   }
+.portfolio_pic {
+    padding: 10px;
+}
+.main-card {
+    padding: 20px;
+}
+.social-buttons {
+   margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#first-sc {
+    width: 200px
+}
 
+#second-sc {
+    width: 200px
+}
+
+#third-sc {
+    width: 200px
+}
+
+#fourth-sc {
+    width: 200px
+}
+
+#contact {
+    height: 128px;
+    width: 128px
+}

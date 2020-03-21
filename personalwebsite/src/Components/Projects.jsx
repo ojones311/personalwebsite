@@ -5,6 +5,7 @@ class Projects extends Component {
     constructor(){
         super()
         this.state = {
+            hover: false,
             projectList: [
                 {   
                     id: 1,
@@ -40,6 +41,11 @@ class Projects extends Component {
                 }
             ]
         }
+    }
+    toggleHover = () => {
+        this.setState({
+            hover: !this.state.hover
+        })
     }
     redirectToGithubPage = (id) => {
         const {projectList} = this.state
@@ -84,7 +90,7 @@ class Projects extends Component {
                                 <p id={'mission' + proj.id}>{proj.mission}</p>
                                 <div id='link-buttons'>
                                     <button id={proj.name + '-githubbutton'} onClick={this.redirectToGithubPage}>Github</button>
-                                    <button id={proj.name + '-livebutton'} onClick={this.redirectToLivePage}>Live</button>
+                                    <button id={proj.name + '-livebutton'} onClick={this.redirectToLivePage}onH>Live</button>
                                 </div>
                             </div>
                         )

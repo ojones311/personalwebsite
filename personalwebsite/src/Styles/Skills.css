@@ -12,46 +12,70 @@
     text-align: center;
     align-items: center;
     width: auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: beige;
 }
 
 #html-icon{
     text-align: center;
     align-items: center;
     width: auto;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: beige;
 }
 
 #css-icon{
     text-align: center;
     align-items: center;
     width: auto;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: beige;
 }
 
 #nodejs-icon{
     text-align: center;
     align-items: center;
     width: auto;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: beige;
 }
 
 #postgres-icon{
     text-align: center;
     align-items: center;
     width: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: beige;
 }
 
 #react-icon{
     text-align: center;
     align-items: center;
     width: auto;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: beige;
 }
 
 #github-icon{
     text-align: center;
     align-items: center;
     width: auto;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: beige;
 }
 
 #git-icon{
     text-align: center;
     align-items: center;
     width: auto;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: beige;
 }
