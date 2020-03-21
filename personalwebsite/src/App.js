@@ -5,8 +5,6 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
-import Resume from './Components/Resume'
-import ContactFooter from './Components/ContactFooter'
 import './App.css';
 
 
@@ -30,9 +28,6 @@ function App() {
               />
               <Route path="/skills"
                 render={() => <Skills />}
-              />
-              <Route path= "/resume"
-                render={() => <Resume />}
               />
           </Switch>
         </div>

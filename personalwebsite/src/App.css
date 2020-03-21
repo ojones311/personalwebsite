@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Tenor+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:600&display=swap');
 
-.App {
+.App, html {
   height: 100%;
   width: 100%;
-  background: url('/loo-roll.jpg');
+  background-color:rgb(234, 248, 248);
 }
 
 .full-body {
   height:100%;
   width:100%;
-  background-image: url('/loo-roll.jpg');
 }
-body {
-  /* background-image: url('/gray_pattern-background.jpeg') fixed no-repeat */
-  background-image: url('/loo-roll.jpg')
-}
+
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 72px
@@ -24,3 +20,9 @@ h1 {
 h2, h3, h4, p {
   font-family: 'Tenor Sans', sans-serif
 }
+
+p {
+  font-weight: bold;
+}
+
+

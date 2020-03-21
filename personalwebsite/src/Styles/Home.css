@@ -9,14 +9,24 @@
     font-size: 72px;
     text-align: center;
 }
+#job-title {
+    font-size: 30px;
+}
 .random-quote {
     width: 100%;
-    border-style: ridge; 
+    border-style: solid; 
     border-width: 2px; 
+    border-color: rgb(234, 248, 248);
+    border-radius: 20px;
     background-color: beige;
   }
 .portfolio_pic {
     padding: 10px;
+}
+#main-pic {
+    height: auto;
+    width: 500px;
+    opacity: .85;
 }
 .main-card {
     padding: 20px;
@@ -28,19 +38,31 @@
     justify-content: center;
 }
 #first-sc {
-    width: 200px
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   justify-items: center;
 }
 
 #second-sc {
-    width: 200px
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   justify-items: center;
 }
 
 #third-sc {
-    width: 200px
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   justify-items: center;
 }
 
 #fourth-sc {
-    width: 200px
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   justify-items: center;
 }
 
 #contact {
