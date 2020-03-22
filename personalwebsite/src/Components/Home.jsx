@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {useSpring, animated} from 'react-spring'
 import Quote from 'inspirational-quotes'
 import '../Styles/Home.css'
 
@@ -37,7 +38,7 @@ class Home extends Component {
                 </div>
                 <div className='main-card'>
                     <div className='inner-container'>
-                    <h1 id='contact-social'>Contact me:</h1>
+                    <h2 id='contact-social'>Contact me:</h2>
                     <div className='social-buttons'>
                         <div id='first-sc'>
                             <a target='blank' href='https://github.com/ojones311'>
