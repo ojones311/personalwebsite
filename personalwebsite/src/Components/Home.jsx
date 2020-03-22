@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {useSpring, animated} from 'react-spring'
+import {Spring} from 'react-spring/renderprops'
 import Quote from 'inspirational-quotes'
 import '../Styles/Home.css'
 
@@ -23,7 +24,7 @@ class Home extends Component {
         })
     }
     
-    render(){
+    render(){ 
         const {quote} = this.state
         return(
             <div className='home-page'>

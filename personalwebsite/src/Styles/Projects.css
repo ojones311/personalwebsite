@@ -28,12 +28,12 @@
     grid-row: 1/2;
     justify-items: center;
     background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 #MemeMe:hover {
     border-width: 2px;
-    border-color: black;
-    transform: scaleY(1.15) scaleX(1.15)
+    transform: scaleY(1.15) scaleX(1.15);
 }
 
 #Winstagram {
@@ -47,10 +47,10 @@
     grid-column: 1/2;
     grid-row: 3/4;
     background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
 }
 #Winstagram:hover {
     border-width: 2px;
-    border-color: black;
     transform: scaleY(1.15) scaleX(1.15)
 }
 
@@ -65,12 +65,13 @@
     border-radius: 20px;
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: beige
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 
 #Tekpack:hover {
     border-width: 2px;
-    border-color: black;
     transform: scaleY(1.15) scaleX(1.15)
 }
 
@@ -84,12 +85,13 @@
     border-radius: 20px;
     grid-column: 2/3;
     grid-row: 3/4;
-    background-color: beige
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 
 #Twitter-Clone:hover {
     border-width: 2px;
-    border-color: black;
     transform: scaleY(1.15) scaleX(1.15)
 }
 

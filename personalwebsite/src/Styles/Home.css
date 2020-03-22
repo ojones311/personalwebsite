@@ -26,8 +26,8 @@
 #main-pic {
     height: auto;
     width: 500px;
-    opacity: .85;
-    
+    opacity: .95;
+    border-radius: 5px;
 }
 .main-card {
     padding: 20px;
