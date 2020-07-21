@@ -1,9 +1,11 @@
 import React from 'react'
-import {useSpring, animated} from 'react-spring'
+import {useSpring, animated, useChain} from 'react-spring'
 import '../Styles/Skills.css'
 
 const Skills = () => {
     const fade = useSpring({opacity:1, from: {opacity:0}})
+
+    
     return(
         <div>
             <h1 id='heading'> Skills </h1>

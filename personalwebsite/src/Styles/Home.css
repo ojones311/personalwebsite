@@ -19,7 +19,12 @@
     border-color: rgb(234, 248, 248);
     border-radius: 20px;
     background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
+.random-quote:hover{
+    box-shadow: 0 4px 8px 0 rgbs(0,0,0,0.8);
+}
+
 .portfolio_pic {
     padding: 10px;
 }
