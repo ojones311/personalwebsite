@@ -10,7 +10,7 @@ class Home extends Component {
         super()
         this.state = {
             quote: '',
-            quoteState: false,
+            quoteState: true,
             links: {
                 github: 'https://github.com/ojones311'
             } 
@@ -42,10 +42,10 @@ class Home extends Component {
                 <h1 id='home-heading'>Owen Jones </h1>
                 <h2 id='job-title'>Full Stack Web Developer</h2>
                 <div className='portfolio_info'>
-                    <img id='main-pic' src='./pics/portfolio_pic.jpg' alt='Profile'></img>
+                    <img id='main-pic' src='./pics/portfolio_pic.jpg' alt='Profile' ></img>
                     <About />
                 </div>
-                <div className='random-quote' onClick={this.changeQuote} onMouseEnter={()=> this.setState({quoteState: true })} onMouseLeave={()=> this.setState({ quoteState: false}) }>
+                <div className='random-quote' onClick={this.changeQuote} onMouseEnter={()=> this.setState({quoteState: false })} onMouseLeave={()=> this.setState({ quoteState: true}) }>
                     <h3>{quote.text}</h3>
                     <h2>{quote.author}</h2>
                     {this.displayHoverEffect()}

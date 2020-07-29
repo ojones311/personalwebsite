@@ -51,8 +51,14 @@ class Projects extends Component {
         }
     }
 
-    
-   
+   renderDescription = (description) => {
+       console.log('proj description')
+       return(
+           <div>
+               <h4>Expand</h4>
+           </div>
+       )
+   }
 
     render(){
         const {projectList} = this.state
@@ -62,7 +68,7 @@ class Projects extends Component {
                 <div className='project-map'>
                     {projectList.map(proj => {
                         return(
-                            <ProjectCard key={proj.id} id={proj.id} name={proj.name} description={proj.description} mission={proj.mission} github={proj.github} live={proj.live}/>
+                            <ProjectCard key={proj.id} id={proj.id} name={proj.name} description={proj.description} mission={proj.mission} github={proj.github} live={proj.live} renderDescription={this.renderDescription}/>
                         )
                     })
                 } 
