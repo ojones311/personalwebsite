@@ -6,7 +6,6 @@ const About = () => {
     const fade = useSpring({opacity:1, from: {opacity:0}})
     return(
         <div className='about-page'>
-            <h1>About me</h1>
             <animated.div style={fade}>
             <div className='bio-container'> 
                 <p id='bio'>

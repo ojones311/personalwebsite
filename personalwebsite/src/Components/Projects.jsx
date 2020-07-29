@@ -27,7 +27,7 @@ class Projects extends Component {
                     id: 2,
                     name: 'Tekpack',
                     description: 'A Full Stack Web Application built with React and Express. It uses a RESTful API and PostgreSQL for the database.',
-                    mission: 'Tekpack is a web application that allows fashion designers to easily communicate the specs and model of a clothing piece for factories to make a sample. We aim to cut down textile waste in the supply chain by lowering the amount of samples needed to make clothing.',
+                    mission: 'Tekpack is a web application that helps fashion designers easily communicate the specs and model of a clothing piece for their suppliers. We aim to cut down textile waste by lowering the amount of samples needed to make clothing.',
                     github: 'https://github.com/ojones311/Tekpack',
                     live:''
                 },

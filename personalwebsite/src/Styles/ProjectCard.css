@@ -1,6 +1,6 @@
 #card {
-    width: 80%;
-    height: 100%;
+    width: 85%;
+    height: 90%;
     margin: 10px;
     border-color:rgb(234, 248, 248);
     border-style: solid;
@@ -10,10 +10,10 @@
     justify-items: center;
     background-color: beige;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: .3s;
+    transition: .4s;
 }
 
 #card:hover {
-    border-width: 2px;
+    border-width: 1px;
     transform: scaleY(1.15) scaleX(1.15);
 }

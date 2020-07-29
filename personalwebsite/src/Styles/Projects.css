@@ -9,7 +9,7 @@
 
 .project-map {
     display: grid;
-    justify-items: space-between;
+    justify-items: center;
     grid-template-columns: [one] 1fr [two] 1fr [three];
     grid-template-rows: 1fr 1fr 1fr ;
     padding: 20px;

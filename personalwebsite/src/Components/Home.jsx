@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import {useSpring, animated} from 'react-spring'
-import {Spring} from 'react-spring/renderprops'
+import About from '../Components/About.jsx'
+// import {useSpring, animated} from 'react-spring'
+// import {Spring} from 'react-spring/renderprops'
 import Quote from 'inspirational-quotes'
 import '../Styles/Home.css'
 
@@ -43,6 +44,7 @@ class Home extends Component {
                 <div className='portfolio_pic'>
                     <img id='main-pic' src='./pics/portfolio_pic.jpg' alt='Profile'></img>
                 </div>
+                <About />
                 <div className='random-quote' onClick={this.changeQuote} onMouseEnter={()=> this.setState({quoteState: true })} onMouseLeave={()=> this.setState({ quoteState: false}) }>
                     <h3>{quote.text}</h3>
                     <h2>{quote.author}</h2>
