@@ -9,8 +9,8 @@ const ProjectCard = (props) => {
             <p id={'mission' + id}>{mission}</p>
             {/* <p>{description}</p> */}
                 <div id='link-buttons' key={id}>
-                    <button id={name + '-githubbutton'} onClick={() => redirectToGithubPage(id)}>Github</button>
-                    <button id={name + '-livebutton'} onClick={() => redirectToLivePage()}>Live</button>
+                    <button id={name + '-githubbutton'} onClick={ () =>  window.location.href = github}>Github</button>
+                    <button id={name + '-livebutton'} onClick={() => {console.log('hii'); window.location.href = live}}>Live</button>
             </div>
         </div>
         )

@@ -45,20 +45,13 @@ class Projects extends Component {
                     description:'A Full Stack Web Application built with React and Express. Howler JS and the Web Audio API are used for audio processing. Media Player API is used for recording',
                     mission: 'Choral is a remote musical playground where multiple users can collaborate on a single song. Its our solution for remote musical collaboration',
                     github: 'https://github.com/PeterFiorentino/Choral',
-                    live: ''
+                    live: 'https://choral.herokuapp.com/'
                 }
             ]
         }
     }
 
-    redirectToGithubPage = (id) => {
-        const {projectList} = this.state
-        window.location.href = projectList[id].github
-    }
-
-    redirectToLivePage = () => {
-        console.log('redir to live')
-    } 
+    
    
 
     render(){
@@ -69,7 +62,7 @@ class Projects extends Component {
                 <div className='project-map'>
                     {projectList.map(proj => {
                         return(
-                            <ProjectCard key={proj.id} id={proj.id} name={proj.name} description={proj.description} mission={proj.mission}redirectToGithub={this.redirectToGithubPage} redirectToLivePage={this.redirectToLivePage}/>
+                            <ProjectCard key={proj.id} id={proj.id} name={proj.name} description={proj.description} mission={proj.mission} github={proj.github} live={proj.live}/>
                         )
                     })
                 } 

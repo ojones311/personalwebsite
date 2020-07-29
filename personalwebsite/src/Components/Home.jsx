@@ -41,10 +41,10 @@ class Home extends Component {
             <div className='home-page'>
                 <h1 id='home-heading'>Owen Jones </h1>
                 <h2 id='job-title'>Full Stack Web Developer</h2>
-                <div className='portfolio_pic'>
+                <div className='portfolio_info'>
                     <img id='main-pic' src='./pics/portfolio_pic.jpg' alt='Profile'></img>
+                    <About />
                 </div>
-                <About />
                 <div className='random-quote' onClick={this.changeQuote} onMouseEnter={()=> this.setState({quoteState: true })} onMouseLeave={()=> this.setState({ quoteState: false}) }>
                     <h3>{quote.text}</h3>
                     <h2>{quote.author}</h2>

@@ -1,19 +1,12 @@
 .about-page {
-    text-align: center;
-}
-
-.bio-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr;
+    width: 90%;
+    margin: 20px;
 }
 
 #bio {
   font-family: 'Tenor Sans', sans-serif;
   font-size: 36px;
   font-weight: bold;
-  grid-column: 2/3;
-  grid-row: 1/2;
   background-color: beige;
   border-color:rgb(234, 248, 248);
   border-style: solid;

@@ -26,8 +26,10 @@
     box-shadow: 0 4px 8px 0 rgbs(0,0,0,0.8);
 }
 
-.portfolio_pic {
+.portfolio_info {
     padding: 10px;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr; 
 }
 #main-pic {
     height: auto;
