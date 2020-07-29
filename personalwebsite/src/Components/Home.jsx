@@ -9,6 +9,7 @@ class Home extends Component {
         super()
         this.state = {
             quote: '',
+            quoteState: false,
             links: {
                 github: 'https://github.com/ojones311'
             } 
@@ -23,7 +24,16 @@ class Home extends Component {
             quote: randomQuote
         })
     }
-    
+   
+    displayHoverEffect = () => {
+        if(this.state.quoteState){
+            return(
+                <div>
+                    <p>Dont like this quote? Click to fetch a new one</p>
+                </div>
+            )
+        }
+    }
     render(){ 
         const {quote} = this.state
         return(
@@ -33,9 +43,10 @@ class Home extends Component {
                 <div className='portfolio_pic'>
                     <img id='main-pic' src='./pics/portfolio_pic.jpg' alt='Profile'></img>
                 </div>
-                <div className='random-quote' onClick={this.changeQuote}>
+                <div className='random-quote' onClick={this.changeQuote} onMouseEnter={()=> this.setState({quoteState: true })} onMouseLeave={()=> this.setState({ quoteState: false}) }>
                     <h3>{quote.text}</h3>
                     <h2>{quote.author}</h2>
+                    {this.displayHoverEffect()}
                 </div>
                 <div className='main-card'>
                     <div className='inner-container'>

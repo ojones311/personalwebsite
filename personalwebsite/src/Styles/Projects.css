@@ -9,9 +9,9 @@
 
 .project-map {
     display: grid;
-    justify-items: center;
+    justify-items: space-between;
     grid-template-columns: [one] 1fr [two] 1fr [three];
-    grid-template-rows: 1fr 1fr 1fr .5fr;
+    grid-template-rows: 1fr 1fr 1fr ;
     padding: 20px;
     margin: 20px;
 }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import ProjectCard from './ProjectCard.jsx'
 import '../Styles/Projects.css'
 
 class Projects extends Component {
@@ -41,7 +42,7 @@ class Projects extends Component {
                 {
                     id: 4,
                     name: 'Choral',
-                    description:'A Full Stack Web Application built with React and Express. Howler JS and the Web Audio API are usedfor audio processing. Media Player API is used for recording',
+                    description:'A Full Stack Web Application built with React and Express. Howler JS and the Web Audio API are used for audio processing. Media Player API is used for recording',
                     mission: 'Choral is a remote musical playground where multiple users can collaborate on a single song. Its our solution for remote musical collaboration',
                     github: 'https://github.com/PeterFiorentino/Choral',
                     live: ''
@@ -67,15 +68,8 @@ class Projects extends Component {
                 <h1 id='heading'>Projects</h1>      
                 <div className='project-map'>
                     {projectList.map(proj => {
-                        return (
-                            <div id={proj.name} key={proj.id}>
-                                <h2 id='proj-title'>{proj.name}</h2>
-                                <p id={'mission' + proj.id}>{proj.mission}</p>
-                                <div id='link-buttons' key={proj.id}>
-                                    <button id={proj.name + '-githubbutton'} onClick={() => this.redirectToGithubPage(proj.id)}>Github</button>
-                                    <button id={proj.name + '-livebutton'} onClick={this.redirectToLivePage}>Live</button>
-                                </div>
-                            </div>
+                        return(
+                            <ProjectCard key={proj.id} id={proj.id} name={proj.name} description={proj.description} mission={proj.mission}redirectToGithub={this.redirectToGithubPage} redirectToLivePage={this.redirectToLivePage}/>
                         )
                     })
                 } 
