@@ -37,6 +37,14 @@ class Projects extends Component {
                     mission: ' A simple Twitter clone of their landing page.',
                     github: 'https://github.com/ojones311/Pursuit-Core-Web-Twitter-CSS-Assignment',
                     live:''
+                },
+                {
+                    id: 4,
+                    name: 'Choral',
+                    description:'A Full Stack Web Application built with React and Express. Howler JS and the Web Audio API are usedfor audio processing. Media Player API is used for recording',
+                    mission: 'Choral is a remote musical playground where multiple users can collaborate on a single song. Its our solution for remote musical collaboration',
+                    github: 'https://github.com/PeterFiorentino/Choral',
+                    live: ''
                 }
             ]
         }
