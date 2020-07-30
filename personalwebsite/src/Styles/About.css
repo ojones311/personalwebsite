@@ -1,11 +1,13 @@
 .about-page {
-    width: 90%;
-    margin: 20px;
+    width: 60%;
+    margin: 0 auto;
 }
 
 #bio {
   font-family: 'Tenor Sans', sans-serif;
-  font-size: 36px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 24px;
   font-weight: bold;
   background-color: beige;
   border-color:rgb(234, 248, 248);

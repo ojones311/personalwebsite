@@ -30,7 +30,7 @@ class Home extends Component {
         if(this.state.quoteState){
             return(
                 <div>
-                    <p>Dont like this quote? Click to fetch a new one</p>
+                    <p>Dont like this quote? Click to try a new one</p>
                 </div>
             )
         }
@@ -39,10 +39,12 @@ class Home extends Component {
         const {quote} = this.state
         return(
             <div className='home-page'>
-                <h1 id='home-heading'>Owen Jones </h1>
-                <h2 id='job-title'>Full Stack Web Developer</h2>
+                <div className='headings'>
+                    <h1 id='home-heading'>Hi, I'm Owen Jones and I'm a ......</h1>
+                    <h2 id='job-title'>Full Stack Web Developer</h2>
+                </div>
                 <div className='portfolio_info'>
-                    <img id='main-pic' src='./pics/portfolio_pic.jpg' alt='Profile' ></img>
+                    {/* <img id='main-pic' src='./pics/portfolio_pic.jpg' alt='Profile' ></img> */}
                     <About />
                 </div>
                 <div className='random-quote' onClick={this.changeQuote} onMouseEnter={()=> this.setState({quoteState: false })} onMouseLeave={()=> this.setState({ quoteState: true}) }>

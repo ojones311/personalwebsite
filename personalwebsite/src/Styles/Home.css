@@ -2,18 +2,24 @@
 .home-page {
     text-align: center;
     height: 100%;
-    /* width: 50%; */
 }
 
 #home-heading {
-    font-size: 72px;
-    text-align: center;
+    font-size: 48px;    
 }
 #job-title {
-    font-size: 30px;
+    font-size: 185px; 
+    margin: 10px;
 }
+
+.headings {
+    text-align: left;
+}
+
 .random-quote {
-    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
     height: 140px;
     border-style: solid; 
     border-width: 2px; 
@@ -28,12 +34,12 @@
 
 .portfolio_info {
     padding: 10px;
-    display: grid;
-    grid-template-columns: .5fr 1.5fr; 
+    display: grid; 
+    margin: 0 auto;
 }
 #main-pic {
     height: auto;
-    width: 400px;
+    width: 500px;
     opacity: .95;
     border-radius: 5px;
 }
@@ -81,3 +87,4 @@
     height: 100px;
     width: 100px
 }
+

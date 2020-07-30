@@ -1,11 +1,10 @@
 import React from 'react'
-import {useSpring, animated, useChain} from 'react-spring'
+import {useSpring, animated} from 'react-spring'
 import '../Styles/Skills.css'
 
 const Skills = () => {
     const fade = useSpring({opacity:1, from: {opacity:0}})
 
-    
     return(
         <div>
             <h1 id='heading'> Skills </h1>
@@ -32,8 +31,8 @@ const Skills = () => {
                     <div id='github-icon'>
                         <img src= './pics/GithubIcon.png' alt='GITHUB'></img>
                     </div>
-                    <div id='git-icon' alt='GIT'>
-                        <img src='./pics/GitIcon.png'></img>
+                    <div id='git-icon' >
+                        <img src='./pics/GitIcon.png' alt='GIT'></img>
                     </div>
                 </div>
             </animated.div>
