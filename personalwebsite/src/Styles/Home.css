@@ -33,13 +33,14 @@
 }
 
 .portfolio_info {
+    display: flex;
     padding: 10px;
     display: grid; 
     margin: 0 auto;
 }
 #main-pic {
     height: auto;
-    width: 500px;
+    width: 75px;
     opacity: .95;
     border-radius: 5px;
 }

@@ -9,7 +9,7 @@ const NavBar = () => {
                 <Link to= "/"> Home </Link>{" "}
                 <Link to= "/projects"> Projects </Link>{" "}
                 <Link to= "/skills"> Skills </Link>{" "}
-                <a href='https://docs.google.com/document/d/1Dm0UPHdxjRFAPbNWVOdtsnjxpHXK58VigH6fRZtaQoU/edit#heading=h.85r1lcob89ni'>Resume</a>
+                <a target= 'blank' href='https://docs.google.com/document/d/1Dm0UPHdxjRFAPbNWVOdtsnjxpHXK58VigH6fRZtaQoU/edit#heading=h.85r1lcob89ni'>Resume</a>
             </nav>
             
         </div>
