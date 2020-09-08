@@ -8,15 +8,14 @@
 
 #bio {
   font-family: 'Tenor Sans', sans-serif;
-  margin: 0 auto;
   padding: 20px;
   font-size: 24px;
   font-weight: bold;
-  background-color: beige;
+  /* background-color: beige; */
   border-color:rgb(234, 248, 248);
   border-style: solid;
   border-width: 2px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* border-radius: 20px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
 

@@ -46,36 +46,46 @@
     margin: 0 auto;
 }
 #profile-pic-container {
-    text-align: right
+    text-align: right;
+    padding: 10px;
 }
 
 #main-pic {
     height: auto;
-    width: 300px;
+    width: 350px;
     opacity: .95;
-    border-radius: 5px;
+    border-radius: 50%;
+    border: 8px solid beige;
 }
 .main-card {
     padding: 20px;
 }
 .social-buttons {
-   margin: 5px;
+    margin: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
+
 #first-sc {
     width: 200px;
     display: grid;
     grid-template-rows: 1fr 1fr;
    justify-items: center;
 }
-
+#first-sc:hover {
+    background-color: beige
+}
 #second-sc {
     width: 200px;
     display: grid;
     grid-template-rows: 1fr 1fr;
    justify-items: center;
+}
+
+#second-sc:hover {
+    background-color: beige
 }
 
 #third-sc {
@@ -85,6 +95,10 @@
    justify-items: center;
 }
 
+#third-sc:hover {
+    background-color: beige
+}
+
 #fourth-sc {
     width: 200px;
     display: grid;
@@ -92,9 +106,14 @@
    justify-items: center;
 }
 
+#fourth-sc:hover {
+    background-color: beige
+}
+
 #contact-social {
     font-size: 30px;
 }
+
 #contact {
     height: 100px;
     width: 100px

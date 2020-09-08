@@ -1,6 +1,12 @@
 #heading {
     text-align: center;
 }
+
+#skills-heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
 .skill-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -16,9 +22,6 @@
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: beige;
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: rgb(234, 248, 248);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -30,9 +33,6 @@
     grid-column: 2/3;
     grid-row: 3/4;
     background-color: beige;
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: rgb(234, 248, 248);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -44,9 +44,6 @@
     grid-column: 3/4;
     grid-row: 3/4;
     background-color: beige;
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: rgb(234, 248, 248);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -58,9 +55,6 @@
     grid-column: 3/4;
     grid-row: 2/3;
     background-color: beige;
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: rgb(234, 248, 248);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -72,9 +66,6 @@
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: beige;
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: rgb(234, 248, 248);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -86,9 +77,6 @@
     grid-column: 3/4;
     grid-row: 1/2;
     background-color: beige;
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: rgb(234, 248, 248);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -100,9 +88,6 @@
     grid-column: 2/3;
     grid-row: 4/5;
     background-color: beige;
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: rgb(234, 248, 248);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -114,9 +99,6 @@
     grid-column: 3/4;
     grid-row: 4/5;
     background-color: beige;
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: rgb(234, 248, 248);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }

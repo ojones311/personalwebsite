@@ -40,8 +40,7 @@ class Home extends Component {
         return(
             <div className='home-page'>
                 <div className='headings'>
-                    <h1 id='home-heading'>Hi, I'm Owen Jones and I'm a ......</h1>
-                    <h2 id='job-title'>Full Stack Web Developer</h2>
+                    <h1 id='home-heading'>Hi, I'm Owen Jones and I'm a full-stack software developer</h1>
                 </div>
                 <div className='portfolio_info'>
                     <div id='profile-pic-container'>
