@@ -1,7 +1,9 @@
 
 .home-page {
-    text-align: center;
     height: 100%;
+}
+.full-body  {
+    text-align: center    
 }
 
 #home-heading {
@@ -13,7 +15,11 @@
 }
 
 .headings {
-    text-align: left;
+    text-align: center;
+}
+
+.inner-container {
+    text-align: center;
 }
 
 .random-quote {
@@ -27,20 +33,25 @@
     border-radius: 20px;
     background-color: beige;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
+}
+
 .random-quote:hover{
     box-shadow: 0 4px 8px 0 rgbs(0,0,0,0.8);
 }
 
 .portfolio_info {
-    display: flex;
     padding: 10px;
     display: grid; 
+    grid-template-columns: 1fr 1fr;
     margin: 0 auto;
 }
+#profile-pic-container {
+    text-align: right
+}
+
 #main-pic {
     height: auto;
-    width: 75px;
+    width: 300px;
     opacity: .95;
     border-radius: 5px;
 }

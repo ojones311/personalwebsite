@@ -1,6 +1,9 @@
 .about-page {
-    width: 60%;
-    margin: 0 auto;
+    padding: 10px;
+}
+
+.bio-container {
+  width: 60%;
 }
 
 #bio {
