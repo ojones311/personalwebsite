@@ -3,11 +3,12 @@
     font-size: x-large;
     height: 50px;
     width: 100%;
-    color: rgb(7, 7, 52);
-    background-color: beige;
+    background-color: black;
 }
 
 a {
     font-style: italic;
     text-decoration: none;
+    color: beige;
 }
+
