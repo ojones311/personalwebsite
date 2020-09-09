@@ -2,20 +2,14 @@
     padding: 10px;
 }
 
-.bio-container {
-  width: 60%;
-}
-
 #bio {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;;
   padding: 20px;
-  font-size: 24px;
-  font-weight: bold;
-  /* background-color: beige; */
+  font-size: 1.2rem;
+  font-weight: lighter;
   border-color:rgb(234, 248, 248);
   border-style: solid;
   border-width: 2px;
-  /* border-radius: 20px; */
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  letter-spacing: .03em;
 }
 
