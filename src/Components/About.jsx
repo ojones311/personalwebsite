@@ -9,8 +9,11 @@ const About = () => {
             <animated.div style={fade}>
             <div className='bio-container'> 
                 <p id='bio'>
-                    I'm based in Bushwick {'=>'} Brooklyn,NY. I love to snowboard, play soccer, solve puzzles, and cook. There isn't anything that doesn't interest me if it's interesting. So lets make something that people love to use, something they can't picture their life without.
-                </p>
+                    I'm residing in Bushwick {'=>'} Brooklyn,NY. When I'm not building web apps I love to snowboard, play soccer, solve puzzles, and cook. 
+                 </p>
+                 <p id='bio'> 
+                     I'm building user-friendly experiences and exploring different technologies along the way. Different frameworks and libraries like React, Node, and PostgreSQL. 
+                </p>  
             </div>
             </animated.div>
         </div>
